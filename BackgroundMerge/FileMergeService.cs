@@ -47,7 +47,9 @@ namespace FileMergeLibrary
 
                     _logger.LogInformation($"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - Completed");
 
-                    await connection.InvokeAsync("SendMessage", "Merge done");
+                    //await connection.InvokeAsync("SendMessageToUser", mergeJob.UserId, $"Merge done for UserId {mergeJob.UserId}");
+                    await connection.InvokeAsync("SendMessageToSession", mergeJob.SessionId, $"Merge done for session {mergeJob.SessionId}");
+
 
 
                 }

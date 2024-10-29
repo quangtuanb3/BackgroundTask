@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FileMergeLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55f3e99449e2a2dea31565e8910eb0f0500bd113")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileMergeLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FileMergeLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

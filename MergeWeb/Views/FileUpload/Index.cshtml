@@ -35,17 +35,25 @@
 @section Scripts {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
     <script>
+        function generateSessionId() {
+            return '_' + Math.random().toString(36).substr(2, 9); // Generate a unique ID
+        }
         const connection = new signalR.HubConnectionBuilder()
             .withUrl("/uploadhub")
             .build();
 
         const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
-
+        let sessionId = null
         let connectionId = null;
 
         connection.start().then(function () {
             console.log("Connected to SignalR hub with connectionId:", connection.connectionId);
             connectionId = connection.connectionId;
+           
+             sessionId = sessionStorage.getItem("sessionId") || generateSessionId();
+             sessionStorage.setItem("sessionId", sessionId);
+       console.log(sessionId);
+            connection.invoke("RegisterConnection", connection.connectionId, sessionId);
         }).catch(function (err) {
             console.error("Error starting SignalR connection:", err);
         });
@@ -53,7 +61,7 @@
             console.log("Notification received:", message);
             alert(message);
         });
-
+         
         document.getElementById("uploadForm").addEventListener("submit", function (event) {
             event.preventDefault();
 
@@ -71,7 +79,7 @@
                 const totalChunks = Math.ceil(file.size / chunkSize);
                 let offset = 0;
                 let totalBytesUploaded = 0; // Track total bytes uploaded
-
+              
                 const uploadChunk = (chunkIndex) => {
                     const reader = new FileReader();
 
@@ -125,12 +133,14 @@
                                 console.log('Error uploading chunk ' + (chunkIndex + 1) + '.');
                             }
                         };
+                       
 
                         const chunkFormData = new FormData();
                         chunkFormData.append('fileChunk', chunkData);
                         chunkFormData.append('fileName', file.name);
                         chunkFormData.append('chunkIndex', chunkIndex);
                         chunkFormData.append('totalChunks', totalChunks);
+                        chunkFormData.append('sessionId', sessionId);
 
                         xhr.send(chunkFormData);
                     };

@@ -11,25 +11,30 @@
 <body>
     <div class="container">
         <header>
-            <h1 class="mt-5">File Uploader</h1>
+
             @{
                 var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
             }
-
-            @if (currentAction == "Index") // Check if currentAction is empty or null
+            @if (currentAction != null)
             {
-                <a class="btn btn-primary" href="/UploadUsingCronJob">Merge Using CronJob</a>
-            }
-            else
-            {
-                <a class="btn btn-primary" href="/">Merge Using Class library</a> <!-- Print current action -->
-            }
+                <h1 class="mt-5">File Uploader</h1>
+                @if (currentAction == "Index") // Check if currentAction is empty or null
 
+                {
+
+                    <a class="btn btn-primary" href="/UploadUsingCronJob">Merge Using CronJob</a>
+                }
+                else
+                {
+
+                    <a class="btn btn-primary" href="/">Merge Using Class library</a> <!-- Print current action -->
+                }
+            }
 
         </header>
 
         <!-- Main Content -->
-        <div class="row">
+        <div class="row pt-4">
             <div class="col-md-12">
                 @RenderBody()
             </div>

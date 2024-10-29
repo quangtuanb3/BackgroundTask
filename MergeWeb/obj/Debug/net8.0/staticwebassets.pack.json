@@ -241,6 +241,42 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\NET\\MergeWeb\\MergeWeb\\wwwroot\\uploads\\Git-2.46.2-64-bit_993e81b0-8265-406d-ba59-16ae653fb058.exe",
+      "PackagePath": "staticwebassets\\uploads\\Git-2.46.2-64-bit_993e81b0-8265-406d-ba59-16ae653fb058.exe"
+    },
+    {
+      "Id": "D:\\NET\\MergeWeb\\MergeWeb\\wwwroot\\uploads\\VSCodeUserSetup-x64-1.94.0_2c33d420-a6c7-49e6-a872-3e2e35fffc91.exe",
+      "PackagePath": "staticwebassets\\uploads\\VSCodeUserSetup-x64-1.94.0_2c33d420-a6c7-49e6-a872-3e2e35fffc91.exe"
+    },
+    {
+      "Id": "D:\\NET\\MergeWeb\\MergeWeb\\wwwroot\\uploads\\chromeremotedesktophost_0bd43185-9809-4dee-b1e2-c378e8be513e.msi",
+      "PackagePath": "staticwebassets\\uploads\\chromeremotedesktophost_0bd43185-9809-4dee-b1e2-c378e8be513e.msi"
+    },
+    {
+      "Id": "D:\\NET\\MergeWeb\\MergeWeb\\wwwroot\\uploads\\chromeremotedesktophost_e6a03dc1-1b4c-40c8-925c-626e4379a419.msi",
+      "PackagePath": "staticwebassets\\uploads\\chromeremotedesktophost_e6a03dc1-1b4c-40c8-925c-626e4379a419.msi"
+    },
+    {
+      "Id": "D:\\NET\\MergeWeb\\MergeWeb\\wwwroot\\uploads\\node-v20.18.0-x64_7ccb981d-386d-4939-9f9e-850c197976ee.msi",
+      "PackagePath": "staticwebassets\\uploads\\node-v20.18.0-x64_7ccb981d-386d-4939-9f9e-850c197976ee.msi"
+    },
+    {
+      "Id": "D:\\NET\\MergeWeb\\MergeWeb\\wwwroot\\uploads\\project-requirements-template-1_ef092cd0-d5ab-481d-a73e-e9784e9a0b17.xlsx",
+      "PackagePath": "staticwebassets\\uploads\\project-requirements-template-1_ef092cd0-d5ab-481d-a73e-e9784e9a0b17.xlsx"
+    },
+    {
+      "Id": "D:\\NET\\MergeWeb\\MergeWeb\\wwwroot\\uploads\\rabbitmq-server-4.0.2_99356f78-0cbe-468b-a064-76715bd8c97f.exe",
+      "PackagePath": "staticwebassets\\uploads\\rabbitmq-server-4.0.2_99356f78-0cbe-468b-a064-76715bd8c97f.exe"
+    },
+    {
+      "Id": "D:\\NET\\MergeWeb\\MergeWeb\\wwwroot\\uploads\\rabbitmq-server-4.0.2_ebdc6ce1-0bbf-4d58-ba52-a52e59dec151.exe",
+      "PackagePath": "staticwebassets\\uploads\\rabbitmq-server-4.0.2_ebdc6ce1-0bbf-4d58-ba52-a52e59dec151.exe"
+    },
+    {
+      "Id": "D:\\NET\\MergeWeb\\MergeWeb\\wwwroot\\uploads\\winrar-x64-701_67817c3f-cdc6-4a99-84ee-47f786cd8bb2.exe",
+      "PackagePath": "staticwebassets\\uploads\\winrar-x64-701_67817c3f-cdc6-4a99-84ee-47f786cd8bb2.exe"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MergeWeb.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

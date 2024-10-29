@@ -960,5 +960,149 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\chromeremotedesktophost_0bd43185-9809-4dee-b1e2-c378e8be513e.msi))">
+      <SourceType>Package</SourceType>
+      <SourceId>MergeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MergeWeb</BasePath>
+      <RelativePath>uploads/chromeremotedesktophost_0bd43185-9809-4dee-b1e2-c378e8be513e.msi</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\chromeremotedesktophost_0bd43185-9809-4dee-b1e2-c378e8be513e.msi))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\chromeremotedesktophost_e6a03dc1-1b4c-40c8-925c-626e4379a419.msi))">
+      <SourceType>Package</SourceType>
+      <SourceId>MergeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MergeWeb</BasePath>
+      <RelativePath>uploads/chromeremotedesktophost_e6a03dc1-1b4c-40c8-925c-626e4379a419.msi</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\chromeremotedesktophost_e6a03dc1-1b4c-40c8-925c-626e4379a419.msi))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\Git-2.46.2-64-bit_993e81b0-8265-406d-ba59-16ae653fb058.exe))">
+      <SourceType>Package</SourceType>
+      <SourceId>MergeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MergeWeb</BasePath>
+      <RelativePath>uploads/Git-2.46.2-64-bit_993e81b0-8265-406d-ba59-16ae653fb058.exe</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\Git-2.46.2-64-bit_993e81b0-8265-406d-ba59-16ae653fb058.exe))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\node-v20.18.0-x64_7ccb981d-386d-4939-9f9e-850c197976ee.msi))">
+      <SourceType>Package</SourceType>
+      <SourceId>MergeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MergeWeb</BasePath>
+      <RelativePath>uploads/node-v20.18.0-x64_7ccb981d-386d-4939-9f9e-850c197976ee.msi</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\node-v20.18.0-x64_7ccb981d-386d-4939-9f9e-850c197976ee.msi))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\project-requirements-template-1_ef092cd0-d5ab-481d-a73e-e9784e9a0b17.xlsx))">
+      <SourceType>Package</SourceType>
+      <SourceId>MergeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MergeWeb</BasePath>
+      <RelativePath>uploads/project-requirements-template-1_ef092cd0-d5ab-481d-a73e-e9784e9a0b17.xlsx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\project-requirements-template-1_ef092cd0-d5ab-481d-a73e-e9784e9a0b17.xlsx))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\rabbitmq-server-4.0.2_99356f78-0cbe-468b-a064-76715bd8c97f.exe))">
+      <SourceType>Package</SourceType>
+      <SourceId>MergeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MergeWeb</BasePath>
+      <RelativePath>uploads/rabbitmq-server-4.0.2_99356f78-0cbe-468b-a064-76715bd8c97f.exe</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\rabbitmq-server-4.0.2_99356f78-0cbe-468b-a064-76715bd8c97f.exe))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\rabbitmq-server-4.0.2_ebdc6ce1-0bbf-4d58-ba52-a52e59dec151.exe))">
+      <SourceType>Package</SourceType>
+      <SourceId>MergeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MergeWeb</BasePath>
+      <RelativePath>uploads/rabbitmq-server-4.0.2_ebdc6ce1-0bbf-4d58-ba52-a52e59dec151.exe</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\rabbitmq-server-4.0.2_ebdc6ce1-0bbf-4d58-ba52-a52e59dec151.exe))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\VSCodeUserSetup-x64-1.94.0_2c33d420-a6c7-49e6-a872-3e2e35fffc91.exe))">
+      <SourceType>Package</SourceType>
+      <SourceId>MergeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MergeWeb</BasePath>
+      <RelativePath>uploads/VSCodeUserSetup-x64-1.94.0_2c33d420-a6c7-49e6-a872-3e2e35fffc91.exe</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\VSCodeUserSetup-x64-1.94.0_2c33d420-a6c7-49e6-a872-3e2e35fffc91.exe))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\winrar-x64-701_67817c3f-cdc6-4a99-84ee-47f786cd8bb2.exe))">
+      <SourceType>Package</SourceType>
+      <SourceId>MergeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MergeWeb</BasePath>
+      <RelativePath>uploads/winrar-x64-701_67817c3f-cdc6-4a99-84ee-47f786cd8bb2.exe</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\winrar-x64-701_67817c3f-cdc6-4a99-84ee-47f786cd8bb2.exe))</OriginalItemSpec>
+    </StaticWebAsset>
   </ItemGroup>
 </Project>

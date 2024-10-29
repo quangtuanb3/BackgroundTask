@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeWeb", "MergeWeb\MergeWeb.csproj", "{194D939C-D401-4F07-B567-727FFD2B0A1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileMergeLibrary", "BackgroundMerge\FileMergeLibrary.csproj", "{30ADECE9-9592-43D9-934A-AFAB2190D907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileMergeLibrary", "BackgroundMerge\FileMergeLibrary.csproj", "{30ADECE9-9592-43D9-934A-AFAB2190D907}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

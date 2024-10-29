@@ -3,18 +3,23 @@ using MergeWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using FileMergeLibrary;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace MergeWeb.Controllers
 {
+    [Authorize]
     public class FileUploadController : Controller
     {
         private readonly IBackgroundServiceQueue _backgroundServiceQueue;
-
-        public FileUploadController(IBackgroundServiceQueue backgroundServiceQueue)
+        private readonly UserManager<IdentityUser> _userManager;
+        public FileUploadController(IBackgroundServiceQueue backgroundServiceQueue, UserManager<IdentityUser> userManager)
         {
             _backgroundServiceQueue = backgroundServiceQueue;
+            _userManager = userManager;
         }
         [HttpGet]
+
         public IActionResult Index()
         {
             return View();
@@ -28,8 +33,9 @@ namespace MergeWeb.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> UploadChunk(IFormFile fileChunk, string fileName, int chunkIndex, int totalChunks)
+        public async Task<IActionResult> UploadChunk(IFormFile fileChunk, string fileName, int chunkIndex, int totalChunks, string sessionId)
         {
+            var userId = _userManager.GetUserId(User);
             var connectionId = Request.Headers["X-Connection-Id"].ToString();
             var chunkFolder = Path.Combine("wwwroot", "uploads", "chunks");
             Directory.CreateDirectory(chunkFolder);
@@ -52,6 +58,8 @@ namespace MergeWeb.Controllers
                 // Create the merge job
                 var mergeJob = new MergeJob
                 {
+                    SessionId = sessionId,
+                    UserId = userId,
                     FileName = fileName,
                     TotalChunks = totalChunks,
                     ChunkFolder = chunkFolder,
